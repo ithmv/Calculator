@@ -1,0 +1,75 @@
+body {
+    background-image: url(derevyannyj_poverkhnost_tekstura_doski_118443_2560x1600.jpg);
+    background-size: cover;
+}
+
+.calculator {
+    background-color: rgb(38, 38, 38);
+    width: 500px;
+    margin: 200px auto;
+    border-radius: 40px;
+    box-shadow: inset 0px 0px 20px 3px rgb(0, 0, 0), 0px 0px 20px 3px black;
+    padding: 20px 10px 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.screen {
+    width: 85%;
+    height: 125px;
+    background-color: rgba(101, 255, 196, 0.3);
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 20px 10px black;
+    text-align: right;
+    overflow: hidden;
+    padding: 0px 15px 0 15px;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+.buttons {
+    margin: auto;
+    width: 90%;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.btns_top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 5px;
+}
+
+.btns_top > button {
+    height: 50px;
+}
+
+.nums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(79, 79, 79);
+    color: rgb(219, 219, 219);
+    box-shadow:inset 0px 0px 8px 2px rgba(0, 0, 0, 0.579), 0px 0px 1px 2px rgba(0, 0, 0, 0.78);
+}
+
+.acts {
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
